@@ -1,3 +1,20 @@
 body {
+  background-color: #B0DFE5; 
+}
 
+h2 {
+  color: #588BAE;
+  text-align: center;
+  font-family: calibri;
+  font-size: 30px;
+}
+
+img {
+  width:500px;
+  border: dashed pink 5px
+}
+
+img:hover {
+  width: 1000px;
+  border: dashed blue 5px
 }
