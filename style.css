@@ -5,17 +5,17 @@ body {
 h2 {
   color: #588BAE;
   text-align: center;
-  font-family: calibri;
-  font-size: 30px;
+  font-family: palatino;
+  font-size: 100px;
 }
 
 img {
-  width: 250px;
+  width: 500px;
   transition: .5s;
 }
 
 img:hover {
-  width: 500px;
+  width: 650px;
   transition: .5s;
 }
 
@@ -23,7 +23,7 @@ nav{
   list-style-type: none;
   top: 0;
   width: 100%;
-  height: 50px;
+  height: 70px;
   position: fixed;
   background-color:#79C7C5;
   left: 0;
@@ -33,9 +33,20 @@ nav{
 li{
   display: inline;
   float: right;
-  padding: 0.5%;
+  padding: 1.0%;
 }
 
 a{
   text-decoration: none;
+  font-family: palatino;
+  font-size: 20px;
+  color: #B0DFE5;
+}
+
+button{
+  background-color:#588BAE;
+  border:10;
+  border-color:#588BAE;
+  padding: 8%;
+  border-radius: 5px
 }
